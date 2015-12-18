@@ -1,10 +1,4 @@
-# AWS CLI built from Alpine Linux
-
-- This build results in an image juse 85.84MB in size
-```bash
-REPOSITORY            TAG                 IMAGE ID            CREATED             VIRTUAL SIZE
-aws-cli                   latest              4861914afb8d        2 minutes ago       85.84 MB
-```
+# AWS CLI built from Fedora
 
 # Requirements
 
