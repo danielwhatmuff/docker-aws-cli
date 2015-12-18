@@ -1,4 +1,4 @@
-# AWS CLI built from Fedora
+# AWS CLI built from Debian
 
 # Requirements
 
