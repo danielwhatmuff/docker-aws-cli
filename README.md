@@ -1,2 +1,30 @@
-# docker-aws-cli
-Dockerized aws cli built from various base images.
+# AWS CLI built from Alpine Linux
+
+# Requirements
+
+- Docker :whale: - if you are on Mac, checkout the [Docker Toolbox](http://docs.docker.com/mac/step_one/)
+
+# Usage
+
+- Add AWS credentials to the example-config file and rename to config - for help, see the [AWS CLI Guide](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html#cli-config-file)
+```bash
+[default]
+aws_access_key_id=###
+aws_secret_access_key=###
+region=###
+```
+- Build the image using docker
+```bash
+$ docker build -t aws-cli .
+```
+- Use the AWS CLI
+```bash
+$ docker run --rm aws-cli aws s3 ls
+```
+
+# NOTE
+
+**Please be careful not to push your AWS credentials to Github! :scream:**
+
+### Contributing
+File issues in GitHub to report bugs or issue a pull request to contribute.
