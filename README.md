@@ -3,7 +3,7 @@
 - This build results in an image juse 85.84MB in size
 ```bash
 REPOSITORY            TAG                 IMAGE ID            CREATED             VIRTUAL SIZE
-cli                   latest              4861914afb8d        2 minutes ago       85.84 MB
+aws-cli                   latest              4861914afb8d        2 minutes ago       85.84 MB
 ```
 
 # Requirements
