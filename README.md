@@ -1,5 +1,11 @@
 # AWS CLI built from Alpine Linux
 
+- This build results in an image juse 85.84MB in size
+```bash
+REPOSITORY            TAG                 IMAGE ID            CREATED             VIRTUAL SIZE
+cli                   latest              4861914afb8d        2 minutes ago       85.84 MB
+```
+
 # Requirements
 
 - Docker :whale: - if you are on Mac, checkout the [Docker Toolbox](http://docs.docker.com/mac/step_one/)
