@@ -10,6 +10,4 @@ RUN apk-install python3 curl groff bash && \
             rm -rf /root/.cache && \
             rm -rf /var/cache/apk/
 
-ADD config /root/.aws/config
-
 CMD ["aws"]
