@@ -20,6 +20,12 @@ $ docker build -t aws-cli .
 ```bash
 $ docker run -e AWS_ACCESS_KEY_ID='' -e AWS_SECRET_ACCESS_KEY='' -e AWS_DEFAULT_REGION='' --rm aws-cli aws s3 ls
 ```
+# Use the Docker Hub automated build
+
+- To use the automated build from Docker Hub, run:
+```bash
+$ docker pull danielwhatmuff/docker-aws-cli
+```
 
 ### Contributing
 File issues in GitHub to report bugs or issue a pull request to contribute.
