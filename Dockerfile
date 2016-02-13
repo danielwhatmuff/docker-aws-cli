@@ -8,6 +8,7 @@ RUN apk-install python3 curl groff bash && \
             pip install awscli && \
             mkdir -p /root/.aws && \
             rm -rf /root/.cache && \
-            rm -rf /var/cache/apk/
+            rm -rf /var/cache/apk/ && \
+            aws --version
 
 CMD ["aws"]
