@@ -1,10 +1,10 @@
 # AWS CLI built from Alpine Linux
 
-- This build results in an image just 85.84MB in size
-```bash
-REPOSITORY            TAG                 IMAGE ID            CREATED             VIRTUAL SIZE
-aws-cli                   latest              4861914afb8d        2 minutes ago       85.84 MB
-```
+# Summary
+
+- A Docker build for the AWS command line tools, for more info see [AWS CLI](https://aws.amazon.com/cli/)
+
+[![](https://badge.imagelayers.io/danielwhatmuff/docker-aws-cli:latest.svg)](https://imagelayers.io/?images=danielwhatmuff/docker-aws-cli:latest 'Get your own badge on imagelayers.io')
 
 # Requirements
 
