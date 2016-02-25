@@ -1,4 +1,4 @@
-# AWS CLI built from Alpine Linux
+# AWS CLI built from Fedora
 
 # Summary
 
